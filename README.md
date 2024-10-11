@@ -30,6 +30,10 @@ The boAt Lifestyle website clone is a static site that mimics the look and feel 
 - Responsive design techniques
 - Google Fonts for typography
 
+## Difficulties faced
+
+- This website page contained minute details which took a long time to complete.
+
 ## Setup Instructions
 
 To view this project on your local machine:
