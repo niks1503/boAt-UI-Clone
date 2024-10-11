@@ -9,6 +9,8 @@ This is a UI clone of the [boAt Lifestyle](https://www.boat-lifestyle.com/) webs
 <img src="photos/Screenshot (311).png" alt="ss3">
 <img src="photos/Screenshot (312).png" alt="ss4">
 <img src="photos/Screenshot (313).png" alt="ss5">
+<img src="photos/Screenshot (314).png" alt="ss6">
+<img src="photos/Screenshot (315).png" alt="ss7">
 
 ## Project Overview
 
