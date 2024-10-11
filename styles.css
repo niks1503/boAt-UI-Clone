@@ -160,7 +160,7 @@ header {
 
     .cards-container {
       display: flex;
-      flex-direction: row;
+      flex-direction: row !important;
       justify-content: space-between;
 
       flex-wrap: wrap;
@@ -228,6 +228,388 @@ header {
     }
   }
 }
+
+.lifestyle {
+  margin-top: 30px;
+}
+
+.ls {
+  max-width: 1400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.ls-head {
+  display: flex;
+  flex-wrap: wrap;
+  & > span {
+    color: red;
+    text-decoration: underline;
+  }
+}
+
+.ls-cont {
+  display: flex;
+  gap: 20px;
+}
+
+.ls-card-cont {
+  margin-bottom: 50px;
+  width: 25%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  font-weight: bold;
+  & > img {
+    width: 90%;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  & > a {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+  }
+}
+
+/* main */
+
+.Tribe_head {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+
+  .Tribe {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 3rem;
+
+    .Tribe_heading {
+      color: #1a2024;
+      font-size: 2em;
+      text-align: left;
+      font-weight: 400;
+    }
+  }
+}
+
+.Tribe_card-main_container1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  .Tribe_card-main_container2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 90%;
+
+    .product-card {
+      width: 250px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      font-family: Arial, sans-serif;
+    }
+
+    .image-container {
+      width: 100%;
+      height: 350px;
+      background-color: #f5f5f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      & video {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    .product-image {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .product-details {
+      padding: 15px;
+      text-align: center;
+      background-color: white;
+
+      & img {
+        background-color: white;
+      }
+    }
+
+    .product-icon {
+      width: 50px;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    .product-title {
+      font-size: 18px;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .product-price {
+      font-size: 20px;
+      color: #333;
+    }
+
+    .original-price {
+      font-size: 16px;
+      color: #999;
+      text-decoration: line-through;
+      margin-left: 10px;
+    }
+
+    .discount {
+      font-size: 16px;
+      color: green;
+      margin-left: 10px;
+    }
+  }
+}
+
+.heading-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  margin-left: 2.5rem;
+  border-bottom: 1px solid #ddd;
+  font-family: Arial, sans-serif;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  position: relative;
+}
+
+.underline {
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 20px;
+  height: 2px;
+  background-color: red;
+}
+
+.view-all {
+  font-size: 16px;
+  color: #1a73e8;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.view-all:hover {
+  text-decoration: underline;
+}
+
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin: 2.5rem;
+}
+
+.tab {
+  padding: 8px 16px;
+  font-size: 16px;
+  color: #666;
+  background-color: #f5f5f5;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.tab.active {
+  color: #333;
+  font-weight: bold;
+}
+
+.card_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2.5rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 350px;
+  font-size: 16px;
+}
+
+.card-image {
+  position: relative;
+}
+
+.card-image img {
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: #fff;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.overlay h3 {
+  margin: 0;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.date {
+  color: #999;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.description {
+  font-size: 16px;
+  color: #555;
+  margin: 10px 0 20px;
+}
+
+.read-more {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
+
+.press-section {
+  width: 100%;
+}
+
+.press_heading {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 2.5rem;
+}
+
+.press-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.press-section .highlight {
+  color: #ff0000;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.press-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.press-image {
+  display: flex;
+  flex-direction: row;
+  height: 20em;
+  width: 35em;
+  padding-right: 20px;
+  margin: 0.5rem 2.5rem 0.5rem 2.5rem;
+  background-color: #d0d9de;
+}
+
+.p_image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d0d9de;
+  margin-left: 10rem;
+}
+
+.press-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.press-quote {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: #f7f9fa;
+  margin: 0.5rem 2.5rem 0.5rem 2.5rem;
+}
+
+.press-quote p {
+  font-size: 18px;
+  color: #333;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.quote-icon {
+  font-size: 24px;
+  color: #333;
+  margin-right: 5px;
+}
+
+.nav-arrows {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.arrow-btn {
+  background-color: #ddd;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.arrow-btn:hover {
+  background-color: #ccc;
+}
+
+/* footer section */
 
 .footer {
   max-width: 100vw;
