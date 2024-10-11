@@ -125,13 +125,45 @@ header {
   }
 }
 
+.festive-sale {
+  width: 100%;
+
+  .inner-festive-sale {
+    width: 95%;
+    margin: auto;
+
+    .festive-heading {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      .view-all {
+        button {
+          border: none;
+          background-color: white;
+          color: darkslategrey;
+          font-size: medium;
+        }
+      }
+    }
+
+    .festive-img {
+      img {
+        width: 100%;
+        border-radius: 5px;
+      }
+    }
+  }
+}
+
 .earpod {
   margin: 25px auto;
   max-width: 1440px;
-  height: 50vh;
+  height: 60vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .earpod-box {
@@ -308,6 +340,8 @@ header {
 
 .bestsellers {
   margin-top: 30px;
+  margin: auto;
+  width: 90%;
 }
 
 .bs-head {
@@ -320,7 +354,7 @@ header {
 }
 
 .bs {
-  max-width: 1400px;
+  max-width: 100%;
   margin: auto;
   display: flex;
   flex-direction: column;
